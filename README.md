@@ -1,5 +1,5 @@
 # Battery_RUL_Prediction
-The project objective is to predict a battery's remaining useful life (RUL) by developing a feedforward and a Long-Short-Time-Memory (LSTM) 
+### Objectve: ### The project objective is to predict a battery's remaining useful life (RUL) by developing a feedforward and a Long-Short-Time-Memory (LSTM) 
 neural network, using features based on voltage, current, and time extracted from public battery condition monitoring datasets.
 
 The public datasets can be found here: https://www.batteryarchive.org/list.html
