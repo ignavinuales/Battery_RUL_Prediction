@@ -9,8 +9,9 @@ The public datasets can be found here: https://www.batteryarchive.org/list.html
 ## Data preprocessing
 The publicly available databases for battery life cycles do not provide ready-to-use data for this project. Although they contain different variables such as voltage (V), current (A), time (S), discharge and charge capacity (Ah), and charge and discharge energy (Wh), not all of them can be used for this project. The objective is to use only voltage, current, and time as inputs. Nonetheless, employing these variables directly as inputs is not feasible since they provide meaningless information and are not sufficient to create a model. Therefore, they need to be treated and manipulated as a base to develop new features which the neural network will train with. 
 
-In summary, seven features are created from the source datasets using voltage, current, and time. The idea is to use those features to predict the RUL of the battery. The features are summarized in figures named 'Voltage Discharging Cycle', 'Voltage Discharging Cycle', and 'Current Charing Cycle'.
+In summary, seven features are created from the source datasets using voltage, current, and time. The idea is to use those features to predict the RUL of the battery. The features are summarized in the figures below:
 
+<img src="https://github.com/ignavinuales/Battery_RUL_Prediction/blob/main/Voltage%20Discharging%20Cycle.png"  width="300" height="300"> <img src="https://github.com/ignavinuales/Battery_RUL_Prediction/blob/main/Voltage%20Charging%20Cycle.png"  width="300" height="300"> <img src="https://github.com/ignavinuales/Battery_RUL_Prediction/blob/main/Current%20Charging%20Cycle.png"  width="300" height="300"> 
 ## Modules:
 preprocess_data.py: preprocesses data, creates the features and appends them to a new dataset. This code needs to be run for each and one of the 14 source databases.
 join_dataframes.py: it concatenates the 14 dataframes (one for each of the 14 source dataframes) createed by preprocess_data.py.
