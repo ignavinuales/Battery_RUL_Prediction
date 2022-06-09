@@ -1,6 +1,8 @@
 # Battery RUL prediction using PyTorch
 #### Objectve: 
-The project objective is to predict a battery's remaining useful life (RUL) by developing a feedforward and a Long-Short-Time-Memory (LSTM) neural network, using features based on voltage, current, and time extracted from public battery condition monitoring datasets.
+The  objective is twofold:
+1. Create new features based on voltage, current, and time. 
+2. Predict a battery's remaining useful life (RUL) by developing a feedforward and a Long-Short-Time-Memory (LSTM) neural network using the new features.
 
 #### Source dataset:
 The public datasets can be found here: https://www.batteryarchive.org/list.html
