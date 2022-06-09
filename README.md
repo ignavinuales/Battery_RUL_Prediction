@@ -4,7 +4,7 @@ The  objective is twofold:
 1. Create new features based on voltage, current, and time. 
 2. Predict a battery's remaining useful life (RUL) by developing a feedforward and a Long-Short-Time-Memory (LSTM) neural network using the new features.
 
-#### Source dataset:
+#### Source datasets:
 The public datasets can be found here: https://www.batteryarchive.org/list.html
 14 databases are selected from the HNEI source. The .csv files are the time series named 'HNEI_18650_NMC_LCO_25C_0-100_0.5/1.5C_'.
 
